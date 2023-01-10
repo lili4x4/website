@@ -1,38 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:ital,wght@1,400&family=Lustria&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Lato:ital,wght@1,400&family=Lustria&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=Lato:ital,wght@1,400&family=Lustria&display=swap');
+
+
+:root {
+  --accent: #d1a169;
+  --home: #394032;
+  --text: #394032;
+}
+
+html{
+  /* background-color:#d64a13; */
+  background-color: var(--home);
+  /* background-image: url('./images/blacktexture.jpeg'); */
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#name {
+  background-color: var(--accent);
+  background-image: url('./images/bg.png');
+  color: var(--text);
+  margin: 0;
+  padding: 20px;
+  font-family: "Dancing Script", cursive;
+  font-size: xx-large;
+  /* font-family: "Cabin", sans-serif; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#main-content {
+  margin: auto;
+  max-width: 500px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#main-nav {
+  /* background-color: #7b2f2a; */
+  background-color: var(--accent);
+  /* font-family: "Caveat", cursive; */
+  /* font-family: "Cabin", sans-serif; */
+  background-image: url('./images/bg.png');
+}
+
+ul.nav-ul {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
 }
 
-.App-link {
-  color: #61dafb;
+a {
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-li a:link, a:visited {
+  color: var(--text);
+}
+
+.main-box {
+  /* border: 5px #d64a13 solid; */
+  border-radius: 25px;
+  max-width: 500px;
+  padding: 20px;
+  padding-top: 0px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: var(--accent);
+  background-image: url('./images/bg.png');
+}
+
+p {
+  text-align: left;
 }

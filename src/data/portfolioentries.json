@@ -1,0 +1,23 @@
+[
+    {
+        "name":"Tell Me Where",
+        "desc":"A mobile app for recommending restaurants to friends, built using React Native, Python, PostgreSQL, and the Yelp Fusion API",
+        "urlDemo":"",
+        "urlGithubFrontend":"https://github.com/ursaturnine/tell-me-where-app",
+        "urlGithubBackend": "https://github.com/lili4x4/tell-me-where-backend"
+    },
+    {
+        "name":"Well-Seasoned Inspiration Board",
+        "desc":"Virtual bulletin board website and API built with React.js, Python, Flask, and PostgreSQL",
+        "urlDemo":"",
+        "urlGithubFrontend":"https://github.com/jfdudley/front-end-inspiration-board",
+        "urlGithubBackend": "https://github.com/jfdudley/back-end-inspiration-board"
+    },
+    {
+        "name":"Personal Website",
+        "desc":"You're already here! Built using TypeScript and React.js",
+        "urlDemo":"https://lili4x4.github.io/",
+        "urlGithubFrontend":"",
+        "urlGithubBackend": ""
+    }
+]

@@ -1,0 +1,9 @@
+.main-box {
+    border: 5px red solid;
+    border-radius: 25px;
+    /* min-height: fit-content; */
+    max-width: 50%;
+    padding: 20px;
+    margin: auto;
+}
+
