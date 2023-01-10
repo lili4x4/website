@@ -10,9 +10,7 @@
 }
 
 html{
-  /* background-color:#d64a13; */
   background-color: var(--home);
-  /* background-image: url('./images/blacktexture.jpeg'); */
 }
 
 .App {
@@ -27,7 +25,6 @@ html{
   padding: 20px;
   font-family: "Dancing Script", cursive;
   font-size: xx-large;
-  /* font-family: "Cabin", sans-serif; */
 }
 
 #main-content {
@@ -36,17 +33,14 @@ html{
 }
 
 #main-nav {
-  /* background-color: #7b2f2a; */
   background-color: var(--accent);
-  /* font-family: "Caveat", cursive; */
-  /* font-family: "Cabin", sans-serif; */
   background-image: url('./images/bg.png');
 }
 
 ul.nav-ul {
   list-style-type: none; /* Remove bullets */
-  padding: 0; /* Remove padding */
-  margin: 0; /* Remove margins */
+  padding: 0;
+  margin: 0; 
   display: flex;
   justify-content: space-around;
 }
@@ -60,7 +54,6 @@ a {
 }
 
 .main-box {
-  /* border: 5px #d64a13 solid; */
   border-radius: 25px;
   max-width: 500px;
   padding: 20px;
