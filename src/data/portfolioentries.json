@@ -2,7 +2,7 @@
     {
         "name":"Tell Me Where",
         "desc":"A mobile app for recommending restaurants to friends, built using React Native, Python, PostgreSQL, and the Yelp Fusion API",
-        "urlDemo":"",
+        "urlDemo":"https://drive.google.com/file/d/1O2dDbhzJGAqsLDhmIQvPeTbtV4-F7Mhl/view?usp=share_link",
         "urlGithubFrontend":"https://github.com/ursaturnine/tell-me-where-app",
         "urlGithubBackend": "https://github.com/lili4x4/tell-me-where-backend"
     },
