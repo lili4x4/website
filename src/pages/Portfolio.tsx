@@ -10,6 +10,8 @@ function Portfolio() {
             key={entry.name}
             projectName={entry.name}
             desc={entry.desc}
+            img={entry.img}
+            alt={entry.alt}
             urlDemo={entry.urlDemo}
             urlGithubFrontend={entry.urlGithubFrontend}
             urlGithubBackend={entry.urlGithubBackend}

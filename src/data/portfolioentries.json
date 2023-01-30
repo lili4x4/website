@@ -2,6 +2,8 @@
     {
         "name":"Tell Me Where",
         "desc":"A mobile app for recommending restaurants to friends, built using React Native, Python, PostgreSQL, and the Yelp Fusion API",
+        "img":"tmw-add-rec.png",
+        "alt": "Photo of mobile application called Tell Me Where",
         "urlDemo":"https://drive.google.com/file/d/1O2dDbhzJGAqsLDhmIQvPeTbtV4-F7Mhl/view?usp=share_link",
         "urlGithubFrontend":"https://github.com/ursaturnine/tell-me-where-app",
         "urlGithubBackend": "https://github.com/lili4x4/tell-me-where-backend"
@@ -9,6 +11,8 @@
     {
         "name":"Well-Seasoned Inspiration Board",
         "desc":"Virtual bulletin board website and API built with React.js, Python, Flask, and PostgreSQL",
+        "img":"well-seasoned-demo.jpg",
+        "alt": "Photo of web application Well-Seasoned Inspiration Board",
         "urlDemo":"",
         "urlGithubFrontend":"https://github.com/jfdudley/front-end-inspiration-board",
         "urlGithubBackend": "https://github.com/jfdudley/back-end-inspiration-board"
@@ -16,6 +20,8 @@
     {
         "name":"Personal Website",
         "desc":"You're already here! Built using TypeScript and React.js",
+        "img":"",
+        "alt": "",
         "urlDemo":"https://master.d34o189jhm6sh1.amplifyapp.com/",
         "urlGithubFrontend":"https://github.com/lili4x4/website",
         "urlGithubBackend": ""

@@ -3,16 +3,19 @@ import './PortfolioEntry.css'
 
 interface Props {
     projectName: string;
-    urlDemo?: any;
-    urlGithubFrontend?: any;
-    urlGithubBackend?: any;
+    img?: string;
+    alt?: string;
+    urlDemo?: string;
+    urlGithubFrontend?: string;
+    urlGithubBackend?: string;
     desc: string;
 }
 
 export const PortfolioEntry: React.FC <Props>= (props) => {
     return (
         <div id='PortfolioEntry'>
-            <h4 className="project-name">{props.projectName}</h4>
+            <h3 className="project-name">{props.projectName}</h3>
+            <p>{props.desc}</p>
             <div id="portfolio-links">
                 {props.urlDemo &&
                     <a className="portfolio-link" href={props.urlDemo} target="_blank" rel="noreferrer">demo</a>
@@ -24,7 +27,13 @@ export const PortfolioEntry: React.FC <Props>= (props) => {
                     <a className="portfolio-link" href={props.urlGithubBackend} target="_blank" rel="noreferrer">back end</a>
                 }
             </div>
-            <p>{props.desc}</p> 
+            {props.img &&
+                <a href={require('../images/' + props.img)} target="_blank" rel="noreferrer">
+                    <img className='demo-photo' src={require('../images/' +
+        props.img)} alt={props.alt} />
+                </a> 
+            } 
+            <p className='divider'> ______________________ </p>
         </div>
     )
 }
