@@ -28,8 +28,8 @@ export const PortfolioEntry: React.FC <Props>= (props) => {
                 }
             </div>
             {props.img &&
-                <a href={require('../images/' + props.img)} target="_blank" rel="noreferrer">
-                    <img className='demo-photo' src={require('../images/' +
+                <a href={require('../assets/' + props.img)} target="_blank" rel="noreferrer">
+                    <img className='demo-photo' src={require('../assets/' +
         props.img)} alt={props.alt} />
                 </a> 
             } 

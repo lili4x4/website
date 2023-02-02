@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import { Routes, Route, Link } from "react-router-dom";
 import About from './pages/About';
-// import Contact from './pages/Contact';
+import Resume from './pages/Resume';
 import Portfolio from './pages/Portfolio';
 import NotFound from './pages/NotFound';
 import Home from './pages/Home';
@@ -21,9 +21,9 @@ function App() {
           <li className='nav-li'>
             <Link to="about">About</Link>
           </li>
-          {/* <li className='nav-li'>
-            <Link to="contact">Contact</Link>
-          </li> */}
+          <li className='nav-li'>
+            <Link to="resume">Resume</Link>
+          </li>
           <li className='nav-li'>
             <Link to="portfolio">Portfolio</Link>
           </li>
@@ -36,8 +36,8 @@ function App() {
             <Route path="/" element={<Home />}></Route>
             <Route path="about" element={<About />}></Route>
             <Route path="portfolio" element={<Portfolio />}></Route>
-            {/* <Route path="contact" element={<Contact />}></Route> */}
-            <Route path="*" element={<NotFound />}></Route>
+            <Route path="resume" element={<Resume />}></Route>
+            {/* <Route path="*" element={<NotFound />}></Route> */}
           </Routes>
         </div>
       </div>

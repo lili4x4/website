@@ -19,7 +19,7 @@ html{
 
 #name {
   background-color: var(--accent);
-  background-image: url('./images/bg.png');
+  background-image: url('./assets/bg.png');
   color: var(--text);
   margin: 0;
   padding: 20px;
@@ -34,7 +34,7 @@ html{
 
 #main-nav {
   background-color: var(--accent);
-  background-image: url('./images/bg.png');
+  background-image: url('./assets/bg.png');
 }
 
 ul.nav-ul {
@@ -61,8 +61,9 @@ a {
   margin-top: 20px;
   margin-left: 20px;
   margin-right: 20px;
+  margin-bottom: 20px;
   background-color: var(--accent);
-  background-image: url('./images/bg.png');
+  background-image: url('./assets/bg.png');
 }
 
 p {
