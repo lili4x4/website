@@ -25,7 +25,7 @@
         "urlDemo":"https://diceroll.lili4x4.com/",
         "urlGithubFrontend":"https://github.com/lili4x4/dice-roll-task-list",
         "urlGithubBackend": ""
-    }
+    },
     {
         "name":"Personal Website",
         "desc":"You're already here! Built using TypeScript and React.js",
