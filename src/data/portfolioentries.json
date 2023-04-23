@@ -18,11 +18,20 @@
         "urlGithubBackend": "https://github.com/jfdudley/back-end-inspiration-board"
     },
     {
+        "name":"Dice Roll Task List",
+        "desc":"You're already here! Built using TypeScript and React.js",
+        "img":"dice-roll-demo.png",
+        "alt": "Photo of web application Dice Roll Task List",
+        "urlDemo":"https://diceroll.lili4x4.com/",
+        "urlGithubFrontend":"https://github.com/lili4x4/dice-roll-task-list",
+        "urlGithubBackend": ""
+    }
+    {
         "name":"Personal Website",
         "desc":"You're already here! Built using TypeScript and React.js",
         "img":"",
         "alt": "",
-        "urlDemo":"https://master.d34o189jhm6sh1.amplifyapp.com/",
+        "urlDemo":"https://www.lili4x4.com/",
         "urlGithubFrontend":"https://github.com/lili4x4/website",
         "urlGithubBackend": ""
     }
