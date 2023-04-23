@@ -19,7 +19,7 @@
     },
     {
         "name":"Dice Roll Task List",
-        "desc":"You're already here! Built using TypeScript and React.js",
+        "desc":"Productivity tool built using TypeScript and React.js",
         "img":"dice-roll-demo.png",
         "alt": "Photo of web application Dice Roll Task List",
         "urlDemo":"https://diceroll.lili4x4.com/",
