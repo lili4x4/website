@@ -1,7 +1,7 @@
 [
     {
         "name":"Tell Me Where",
-        "desc":"A mobile app for recommending restaurants to friends, built using React Native, Python, PostgreSQL, and the Yelp Fusion API",
+        "desc":"A mobile app for recommending restaurants to friends, built using React Native, Python, PostgreSQL, and the Yelp Fusion API. Capstone made with a partner for Ada Developers Academy.",
         "img":"tmw-add-rec.png",
         "alt": "Photo of mobile application called Tell Me Where",
         "urlDemo":"https://drive.google.com/file/d/1O2dDbhzJGAqsLDhmIQvPeTbtV4-F7Mhl/view?usp=share_link",
@@ -10,16 +10,16 @@
     },
     {
         "name":"Well-Seasoned Inspiration Board",
-        "desc":"Virtual bulletin board website and API built with React.js, Python, Flask, and PostgreSQL",
+        "desc":"Virtual bulletin board website and API built with React.js, Python, Flask, and PostgreSQL. Group project for Ada Developers Academy.",
         "img":"well-seasoned-demo.jpg",
         "alt": "Photo of web application Well-Seasoned Inspiration Board",
-        "urlDemo":"",
-        "urlGithubFrontend":"https://github.com/jfdudley/front-end-inspiration-board",
-        "urlGithubBackend": "https://github.com/jfdudley/back-end-inspiration-board"
+        "urlDemo":"https://main.d19ii35z1zeha2.amplifyapp.com/",
+        "urlGithubFrontend":"https://github.com/lili4x4/front-end-inspiration-board",
+        "urlGithubBackend": "https://github.com/lili4x4/back-end-inspiration-board"
     },
     {
         "name":"Dice Roll Task List",
-        "desc":"Productivity tool built using TypeScript and React.js",
+        "desc":"Productivity tool built using TypeScript and React.js. Solo practice project.",
         "img":"dice-roll-demo.png",
         "alt": "Photo of web application Dice Roll Task List",
         "urlDemo":"https://diceroll.lili4x4.com/",
@@ -27,8 +27,17 @@
         "urlGithubBackend": ""
     },
     {
+        "name":"Weather Report",
+        "desc":"Weather website with controls and API integration, made using HTML, CSS, and JavaScript. Solo project for Ada Developers Academy.",
+        "img":"weather-report.png",
+        "alt": "Photo of web application Weather Report",
+        "urlDemo":"https://weatherreport.lili4x4.com/",
+        "urlGithubFrontend":"https://github.com/lili4x4/weather-report",
+        "urlGithubBackend": ""
+    },
+    {
         "name":"Personal Website",
-        "desc":"You're already here! Built using TypeScript and React.js",
+        "desc":"You're already here! Built using TypeScript and React.js.",
         "img":"",
         "alt": "",
         "urlDemo":"https://www.lili4x4.com/",
