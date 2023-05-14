@@ -5,15 +5,15 @@ import "../App.css"
 function About() {
 return (
     <div className="App">
-        <Header pageTitle="About"/>
-        <p>
-                Liliana “Lili” Parra is a software developer and creative producer from Caracas, Venezuela.
-                She worked in film and event production before making a career change to software development through enrolling in Ada Developers Academy.
-        </p>
-        <p>
-        Lili believes that tech has the power to help others by increasing access, educating, and solving common problems.
-                When not staring at a computer, Lili likes to travel, hike, pet dogs, and play board games with friends.
-        </p>
+        <div className="main-content">
+           <Header pageTitle="About"/>
+            <p>
+                Liliana “Lili” Parra is an event coordinator by day and coder by night.
+                She is originally from Caracas, Venezuela, and currently lives in Washington, D.C.
+                Lili believes that experiences and tech have the potential to make positive change in the world by inspiring others and increasing access.
+                When not staring at a computer or running around at an event, Lili is hiking, drinking craft beer, playing board games, and petting dogs.
+            </p>
+        </div>
     </div>
     );
 }

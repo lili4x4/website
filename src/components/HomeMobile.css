@@ -1,0 +1,5 @@
+
+.carousel-item {
+  height: 92vh;
+  background-color: var(--accent);
+}

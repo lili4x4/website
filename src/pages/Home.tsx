@@ -1,13 +1,14 @@
 import React from 'react';
-import './Home.css'
+import { HomeDesktop } from '../components/HomeDesktop';
+import { HomeMobile } from '../components/HomeMobile';
+
+const isMobile = () => {
+const isMobile = window.matchMedia("(max-width: 767px)").matches;
+  return isMobile;
+}
 
 function Home() {
-return (
-    <div className="App">
-    <img id='bio-photo' src={ require('../assets/biophoto.png') } alt="headshot of Liliana Parra" />
-    <h3>Software developer</h3>
-    </div>
-);
+    return isMobile() ? ( <HomeMobile /> ) : ( <HomeDesktop /> )
 }
 
 export default Home;

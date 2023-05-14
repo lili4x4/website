@@ -4,68 +4,37 @@
 
 
 :root {
-  --accent: #d1a169;
-  --home: #394032;
-  --text: #394032;
+  --accent: #252525;
+  --home: #f0f0f0;
+  --text: #f0f0f0;
 }
 
 html{
-  background-color: var(--home);
-}
-
-.App {
-  text-align: center;
-}
-
-#name {
   background-color: var(--accent);
-  background-image: url('./assets/bg.png');
-  color: var(--text);
-  margin: 0;
-  padding: 20px;
-  font-family: "Dancing Script", cursive;
-  font-size: xx-large;
-}
-
-#main-content {
-  margin: auto;
-  max-width: 500px;
-}
-
-#main-nav {
-  background-color: var(--accent);
-  background-image: url('./assets/bg.png');
-}
-
-ul.nav-ul {
-  list-style-type: none; /* Remove bullets */
-  padding: 0;
-  margin: 0; 
-  display: flex;
-  justify-content: space-around;
-}
-
-a {
-  text-decoration: none;
-}
-
-.nav-li a:link, a:visited {
-  color: var(--text);
-}
-
-.main-box {
-  border-radius: 25px;
-  /* max-width: 500px; */
-  padding: 20px;
-  padding-top: 0px;
-  margin-top: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 20px;
-  background-color: var(--accent);
-  background-image: url('./assets/bg.png');
 }
 
 p {
   text-align: left;
+}
+
+.App {
+  background-color: var(--home);
+  height: 92vh;
+}
+
+.main-content {
+  margin: auto;
+  padding-top: 3em;
+}
+
+@media screen and (min-width: 768px) { 
+  .main-content {
+    width: 60vw;
+  }
+}
+
+@media screen and (max-width: 768px) { 
+  .main-content {
+    width: 90vw;
+  }
 }
