@@ -3,3 +3,8 @@
   height: 92vh;
   background-color: var(--accent);
 }
+
+.carousel-control-prev, .carousel-control-next {
+  height: 92vh;
+  top: unset;
+}
