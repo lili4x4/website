@@ -4,7 +4,12 @@
   background-color: var(--accent);
 }
 
-.carousel-control-prev, .carousel-control-next {
+.carousel-control-prev {
+  height: 92vh;
+  top: unset;
+}
+
+.carousel-control-next {
   height: 92vh;
   top: unset;
 }
