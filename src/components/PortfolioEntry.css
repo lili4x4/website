@@ -1,5 +1,10 @@
+#PortfolioEntry {
+    text-align: center;
+}
+
 .project-name {
     margin: 0;
+    font-size: 1.3em;
 }
 
 #portfolio-links {

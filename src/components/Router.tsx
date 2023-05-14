@@ -3,8 +3,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import App from "../App";
 import About from "../pages/About";
-import Resume from "../pages/Resume";
-import Portfolio from "../pages/Portfolio";
+import Events from "../pages/Events";
+import Coding from "../pages/Coding";
 
 export default function Router() {
 return (
@@ -13,8 +13,8 @@ return (
         <Route path="/" element={<App />}>
         <Route index element={<App/>} />
         <Route path="about" element={<About />} />
-        <Route path="resume" element={<Resume />} />
-        <Route path="portfolio" element={<Portfolio/>} />
+        <Route path="events" element={<Events />} />
+        <Route path="coding" element={<Coding />} />
         </Route>
     </Routes>
     </BrowserRouter>

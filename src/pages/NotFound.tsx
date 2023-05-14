@@ -4,7 +4,9 @@ import { Header } from '../components/Header';
 function About() {
 return (
     <div className="App">
-        <Header pageTitle="404: Not Found"/>
+        <div className='main-content'>
+            <Header pageTitle="404: Not Found"/>
+        </div>
     </div>
     );
 }
