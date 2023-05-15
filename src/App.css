@@ -19,7 +19,7 @@ p {
 
 .App {
   background-color: var(--home);
-  height: 92vh;
+  min-height: 100vh;
 }
 
 .main-content {
