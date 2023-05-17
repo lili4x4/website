@@ -1,0 +1,16 @@
+.carousel-item {
+    height: 92vh;
+    background-color: var(--accent);
+  }
+  
+  .carousel-control-prev {
+    height: 80vh;
+    top: unset;
+    z-index: 2;
+  }
+  
+  .carousel-control-next {
+    height: 80vh;
+    top: unset;
+    z-index: 2;
+  }

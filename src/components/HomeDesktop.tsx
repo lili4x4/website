@@ -28,6 +28,9 @@ export const HomeDesktop: React.FC <Props>= (props) => {
                 <span className="carousel-control-next-icon" aria-hidden="true"></span>
                 <span className="sr-only">Next</span>
             </a>
+            <div className="desktop-intro">
+                <h1><span className="desktop-hi">Hi!</span><span>I'm Lili. I plan events.</span></h1>
+            </div>
         </>
         
     )

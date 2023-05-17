@@ -10,10 +10,10 @@ export const HomeMobile: React.FC <Props>= (props) => {
             <div id="home" className="carousel slide" data-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img className="d-block w-100" src={require('../assets/MobileHome1.jpg')} alt="First slide" />
+                        <img className="d-block w-100" src={require('../assets/MobileHome2.jpg')} alt="First slide" />
                     </div>
                     <div className="carousel-item">
-                        <img className="d-block w-100" src={require('../assets/MobileHome2.jpg')} alt="Second slide" />
+                        <img className="d-block w-100" src={require('../assets/MobileHome1.jpg')} alt="Second slide" />
                     </div>
                     <div className="carousel-item">
                         <img className="d-block w-100" src={require('../assets/MobileHome3.jpg')} alt="Third slide" />
@@ -28,6 +28,9 @@ export const HomeMobile: React.FC <Props>= (props) => {
                 <span className="carousel-control-next-icon" aria-hidden="true"></span>
                 <span className="sr-only">Next</span>
             </a>
+            <div className="mobile-intro">
+                <h1><span className="mobile-hi">Hi!</span><span>I'm Lili.</span><span>I plan events.</span></h1>
+            </div>
         </>
     )
 }

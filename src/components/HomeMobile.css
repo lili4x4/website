@@ -1,15 +1,27 @@
 
-.carousel-item {
+.mobile-intro {
+  position: absolute;
+  top: 8vh;
+  z-index: 1;
+  width: 100vw;
   height: 92vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile-intro h1 {
+  color: var(--text);
   background-color: var(--accent);
+  opacity: .85;
+  padding: .5em;
+  font-size: 2em;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
 }
 
-.carousel-control-prev {
-  height: 80vh;
-  top: unset;
-}
-
-.carousel-control-next {
-  height: 80vh;
-  top: unset;
+.mobile-hi {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 2em;
 }
