@@ -13,7 +13,7 @@
         "desc":"Virtual bulletin board website and API built with React.js, Python, Flask, and PostgreSQL. Group project for Ada Developers Academy.",
         "img":"well-seasoned-demo.jpg",
         "alt": "Photo of web application Well-Seasoned Inspiration Board",
-        "urlDemo":"https://inspirationboard.lili4x4.com/",
+        "urlDemo":"",
         "urlGithubFrontend":"https://github.com/lili4x4/front-end-inspiration-board",
         "urlGithubBackend": "https://github.com/lili4x4/back-end-inspiration-board"
     },

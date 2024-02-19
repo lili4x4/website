@@ -15,7 +15,7 @@ export const PortfolioEntry: React.FC <Props>= (props) => {
     return (
         <div id='PortfolioEntry'>
             <h3 className="project-name">{props.projectName}</h3>
-            <p>{props.desc}</p>
+            <p className="description">{props.desc}</p>
             <div id="portfolio-links">
                 {props.urlDemo &&
                     <a className="portfolio-link" href={props.urlDemo} target="_blank" rel="noreferrer">demo</a>

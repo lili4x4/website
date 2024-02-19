@@ -22,7 +22,7 @@
 }
 
 .portfolio-link {
-    /* border: 1px black solid; */
+    border: 2px black solid;
     background-color: var(--home);
     border-radius: 10px;
     padding: 5px;
@@ -36,4 +36,9 @@ a.portfolio-link:link, a.portfolio-link:visited {
 .divider {
     text-align: center;
     margin-bottom: 30px;
+}
+
+#PortfolioEntry .description {
+    text-align: left;
+    display: inline-block;
 }
