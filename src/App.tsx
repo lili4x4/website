@@ -13,13 +13,14 @@ function App() {
       <div>
         <Nav />
           {/* Define all the routes */}
-          <Routes>
-            <Route path="/" element={<Home />}></Route>
-            <Route path="about" element={<About />}></Route>
-            <Route path="coding" element={<Coding />}></Route>
-            <Route path="events" element={<Events />}></Route>
-            <Route path="*" element={<NotFound />}></Route>
-          </Routes>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="coding" element={<Coding />} />
+          <Route path="events" element={<Events />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+
       </div>
       );
 }
