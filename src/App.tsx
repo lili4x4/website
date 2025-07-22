@@ -11,16 +11,16 @@ import { Nav } from './components/Nav';
 function App() {
   return (    
       <div>
-        <Nav />
-          {/* Define all the routes */}
+         <Home />
+        {/* <Nav />
+          Define all the routes - <this should be a comment
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="coding" element={<Coding />} />
           <Route path="events" element={<Events />} />
           <Route path="*" element={<NotFound />} />
-        </Routes>
-
+        </Routes> */}
       </div>
       );
 }
